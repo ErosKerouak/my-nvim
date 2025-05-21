@@ -18,7 +18,8 @@ Para que todas as funcionalidades da configuração funcionem corretamente, é n
 ### **1. Dependências de sistema**
 
 - **xclip** → para integração com o clipboard do sistema  
-  ```bash
+
+```bash
   sudo apt install xclip
 ````
 
