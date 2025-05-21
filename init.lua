@@ -4,12 +4,12 @@ local opt = vim.opt  -- permite configurar opções do Neovim de forma elegante 
 local g   = vim.g    -- acessa e define variáveis globais do Vim/Neovim. Ex: g.mapleader = " "
 
 -- Load configuration modules
+require("eros.plugins")     -- lazy.setup com todos os plugins
 require("eros.options")     -- configurações básicas do Neovim
 require("eros.keymaps")     -- atalhos de teclado
-require("eros.plugins")     -- lazy.setup com todos os plugins
 require("eros.lsp")         -- configuração do LSP
 require("eros.neovide")     -- ajustes específicos para Neovide
-require("eros.colorscheme") -- tema (ex: gruvbox)
+require("eros.interface") -- tema (ex: gruvbox)
 
 
 

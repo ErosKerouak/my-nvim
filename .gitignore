@@ -1,0 +1,16 @@
+*.swp
+*.swo
+*.un~
+*~
+
+Session.vim
+
+*.log
+*.tmp
+
+*.aux
+*.out
+*.toc
+*.pdf
+*.bbl
+*.blg

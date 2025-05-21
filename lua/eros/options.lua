@@ -53,3 +53,6 @@ opt.shiftwidth = 4          -- Tamanho da indentação automática.
 opt.expandtab = true        -- Converte Tab em espaços.
 opt.smartindent = true      -- Tenta adivinhar a indentação correta.
 opt.autoindent = true       -- Copia a indentação da linha anterior.
+
+
+-- syntax 

@@ -48,12 +48,12 @@ end, { nargs = 1 })
 ------ Comandos para abrir módulos config ------
 ------------------------------------------------
 
-vim.api.nvim_create_user_command("options", "tabnew ~/.config/nvim/lua/eros/options.lua", {})
-vim.api.nvim_create_user_command("keymaps", "tabnew ~/.config/nvim/lua/eros/keymaps.lua", {})
-vim.api.nvim_create_user_command("plugins", "tabnew ~/.config/nvim/lua/eros/plugins.lua", {})
-vim.api.nvim_create_user_command("lsp", "tabnew ~/.config/nvim/lua/eros/lsp.lua", {})
-vim.api.nvim_create_user_command("neovide", "tabnew ~/.config/nvim/lua/eros/neovide.lua", {})
-vim.api.nvim_create_user_command("interface", "tabnew ~/.config/nvim/lua/eros/interface.lua", {})
+vim.api.nvim_create_user_command("Options", "tabnew ~/.config/nvim/lua/eros/options.lua", {})
+vim.api.nvim_create_user_command("Keymaps", "tabnew ~/.config/nvim/lua/eros/keymaps.lua", {})
+vim.api.nvim_create_user_command("Plugins", "tabnew ~/.config/nvim/lua/eros/plugins.lua", {})
+vim.api.nvim_create_user_command("Lsp", "tabnew ~/.config/nvim/lua/eros/lsp.lua", {})
+vim.api.nvim_create_user_command("Neovide", "tabnew ~/.config/nvim/lua/eros/neovide.lua", {})
+vim.api.nvim_create_user_command("Interface", "tabnew ~/.config/nvim/lua/eros/interface.lua", {})
 
 ------------------------------------------------
 ------------ Outros Atalhos Úteis --------------
